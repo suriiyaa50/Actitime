@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[Both the Title are matching]]>
+    </line>
+    <line>
+      <![CDATA[Both the URL are Matching]]>
+    </line>
+    <line>
+      <![CDATA[Execution Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-02T16:49:23 IST" name="Suite" finished-at="2023-06-02T16:49:53 IST" duration-ms="29948">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T16:49:23 IST" name="Test" finished-at="2023-06-02T16:49:53 IST" duration-ms="29948">
+      <class name="com.actitime.testcases.TestCase1">
+        <test-method is-config="true" signature="executionStart()[pri:0, instance:com.actitime.testcases.TestCase1@59474f18]" started-at="2023-06-02T16:49:23 IST" name="executionStart" finished-at="2023-06-02T16:49:23 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.testcases.TestCase1@59474f18]" started-at="2023-06-02T16:49:23 IST" name="setup" finished-at="2023-06-02T16:49:43 IST" duration-ms="19312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginLogOut()[pri:0, instance:com.actitime.testcases.TestCase1@59474f18]" started-at="2023-06-02T16:49:43 IST" name="loginLogOut" finished-at="2023-06-02T16:49:53 IST" duration-ms="10560" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Both the Title are matching]]>
+            </line>
+            <line>
+              <![CDATA[Both the URL are Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.actitime.testcases.TestCase1@59474f18]" started-at="2023-06-02T16:49:53 IST" name="teardown" finished-at="2023-06-02T16:49:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="executionCompelted()[pri:0, instance:com.actitime.testcases.TestCase1@59474f18]" started-at="2023-06-02T16:49:53 IST" name="executionCompelted" finished-at="2023-06-02T16:49:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionCompelted -->
+      </class> <!-- com.actitime.testcases.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

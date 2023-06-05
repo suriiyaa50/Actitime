@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testcases.TestCase1"/>
+      <class name="com.actitime.testcases.TestCase2"/>
+      <class name="com.actitime.testcases.TestCase3"/>
+      <class name="com.actitime.testcases.TestCase4"/>
+      <class name="com.actitime.testcases.TestCase5"/>
+      <class name="com.actitime.testcases.TestCase6"/>
+      <class name="com.actitime.testcases.TestCase7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

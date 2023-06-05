@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.actitime.testcases.TestCase7">
+        <methods>
+          <include name="executionStart"/>
+          <include name="setup"/>
+          <include name="executionCompelted"/>
+          <include name="teardown"/>
+          <include name="logintoCreateLeave"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.TestCase7 -->
+      <class name="com.actitime.testcases.TestCase6">
+        <methods>
+          <include name="executionStart"/>
+          <include name="setup"/>
+          <include name="executionCompelted"/>
+          <include name="teardown"/>
+          <include name="logintoCreateLeave"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.TestCase6 -->
+      <class name="com.actitime.testcases.TestCase3">
+        <methods>
+          <include name="executionStart"/>
+          <include name="setup"/>
+          <include name="executionCompelted"/>
+          <include name="teardown"/>
+          <include name="loginLogOutDeleteCustomer"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.TestCase3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
